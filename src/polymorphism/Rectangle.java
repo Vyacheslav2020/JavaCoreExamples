@@ -1,7 +1,10 @@
 package polymorphism;
 
 public class Rectangle extends Shape {
-    private String name = "rectangle";
+
+    Rectangle() {
+        name = "rectangle";
+    }
 
     @Override
     public void draw() {

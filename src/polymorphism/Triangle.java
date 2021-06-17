@@ -1,7 +1,10 @@
 package polymorphism;
 
 public class Triangle extends Shape {
-    private String name = "triangle";
+
+    Triangle() {
+        name = "triangle";
+    }
 
     @Override
     public void draw() {
