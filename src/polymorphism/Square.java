@@ -1,18 +1,9 @@
 package polymorphism;
 
-public class Square extends Shape {
+class Square extends Shape {
+    private static final String NAME = "square";
 
     Square() {
-        name = "square";
-    }
-
-    @Override
-    public void draw() {
-        System.out.println(messageForDrawing + name);
-    }
-
-    @Override
-    public void erase() {
-        System.out.println(messageForErasing + name);
+        name = NAME;
     }
 }
